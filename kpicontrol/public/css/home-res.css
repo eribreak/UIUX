@@ -1,0 +1,94 @@
+@media(max-width:1399.98px) {
+
+    .kpi-day-item {
+        padding: 15px;
+    }
+
+    .kpi-name {
+        font-size: 18px;
+    }
+}
+
+
+@media(max-width:1300.98px) {
+    #left-content {
+        flex-basis: 65%;
+        max-width: 65%;
+    }
+
+    #right-content {
+        flex-basis: 32%;
+        max-width: 32%;
+    }
+
+}
+
+@media(max-width:1199.98px) {
+
+    #left-content {
+        flex-basis: 60%;
+        max-width: 60%;
+    }
+
+    #right-content {
+        flex-basis: 38%;
+        max-width: 38%;
+    }
+
+
+}
+
+@media(max-width:1091.98px) {}
+
+/* Medium devices (tablets, less than 992px) */
+@media(max-width:991.98px) {
+    #sidebar {
+        display: none;
+    }
+
+    /* #content {
+        padding: 0;
+    } */
+
+    #img-welcome {
+        display: flex;
+        align-items: end;
+    }
+
+    #img-welcome img {
+        height: 80%;
+    }
+
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media(max-width:767.98px) {
+    #home-content {
+        flex-wrap: wrap;
+        padding: 30px;
+        padding-top: 0;
+        height: auto;
+        max-height: none;
+
+    }
+
+    #left-content {
+        flex-basis: 100%;
+        max-width: 100%;
+    }
+
+    #right-content {
+        flex-basis: 100%;
+        max-width: 100%;
+        padding: 0px 20px;
+    }
+}
+
+/* Extra small devices (portrait phone, less than 576px) */
+@media (max-width:575.98px) {
+    #home-content {
+        padding: 10px;
+        padding-top: 0;
+        padding-bottom: 50px;
+    }
+}

@@ -1,0 +1,51 @@
+@media(max-width:1399.98px) {}
+
+
+@media(max-width:1300.98px) {}
+
+@media(max-width:1199.98px) {}
+
+@media(max-width:1091.98px) {}
+
+/* Medium devices (tablets, less than 992px) */
+@media(max-width:991.98px) {}
+
+/* Small devices (landscape phones, less than 768px) */
+@media(max-width:767.98px) {
+    #statistical-chart .chart-content {
+        flex-basis: 90%;
+        max-width: 90%;
+    }
+
+    #statistical-detail {
+        padding: 20px 0px;
+    }
+}
+
+/* Extra small devices (portrait phone, less than 576px) */
+@media (max-width:575.98px) {
+    #chart-overview-content div {
+        padding: 0;
+    }
+
+    .chart-time span:nth-child(1),
+    span:nth-child(3) {
+        margin-right: 3px;
+    }
+
+    .chart-time span:nth-child(2),
+    span:nth-child(4) {
+        margin-right: 5px;
+    }
+
+    #list-task {
+        max-width: 100%;
+        flex-basis: 100%;
+    }
+
+    #yield {
+        flex-basis: 100%;
+        max-width: 100%;
+        margin-top: 20px;
+    }
+}

@@ -1,0 +1,69 @@
+@media(max-width:1399.98px) {
+    
+    .kpi-day-item{
+        padding: 15px;
+    }
+    .kpi-name{
+        font-size: 18px;
+    }
+}
+
+
+@media(max-width:1300.98px) {
+    #left-content{
+        flex-basis: 65%;
+        max-width: 65%;
+    }
+    #right-content{
+        flex-basis: 32%;
+        max-width: 32%;
+    }
+  
+}
+
+@media(max-width:1199.98px) {
+
+    #left-content{
+        flex-basis: 60%;
+        max-width: 60%;
+    }
+    #right-content{
+        flex-basis: 38%;
+        max-width: 38%;
+    }
+
+
+}
+
+@media(max-width:1091.98px) {
+  
+
+
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media(max-width:991.98px) {
+    #select-file {
+        padding-top: 100px;
+    }
+
+
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media(max-width:767.98px) {
+  #add-select{
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .suggest-right{
+    margin-top: 10px;
+  }
+}
+
+/* Extra small devices (portrait phone, less than 576px) */
+@media (max-width:575.98px) {
+   
+}

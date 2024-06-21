@@ -1,0 +1,31 @@
+@media(max-width:1399.98px) {}
+
+
+@media(max-width:1300.98px) {}
+
+@media(max-width:1199.98px) {}
+
+@media(max-width:1091.98px) {}
+
+/* Medium devices (tablets, less than 992px) */
+@media(max-width:991.98px) {
+
+    #sidebar {
+        display: none;
+    }
+
+    #content {
+        padding: 0;
+        padding-top: 80px;
+    }
+
+    #header {
+        display: flex;
+    }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media(max-width:767.98px) {}
+
+/* Extra small devices (portrait phone, less than 576px) */
+@media (max-width:575.98px) {}
